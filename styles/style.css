@@ -156,8 +156,8 @@ margin-top: 1.5rem;
 font-weight: var(--Medium-weight);
 opacity: 70%;
 z-index: 2;
-text-align: justify;
 }
+
 .main_paragraph
 {
     font-weight: var(--Heavy-weight);
@@ -167,6 +167,7 @@ text-align: justify;
 }
 .secondary_paragraph{
     opacity: 80%;
+    text-align: justify;
 }
 .attribution { 
     font-size: 1.4rem; 
