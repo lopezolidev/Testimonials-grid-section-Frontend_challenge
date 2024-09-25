@@ -28,6 +28,7 @@ body {
     align-items: center;
     height: 100%;
     height: 100vh;
+    gap: 4rem;
     
 }
 .cards_wrapper{
@@ -154,6 +155,7 @@ margin-top: 1.5rem;
 font-weight: var(--Medium-weight);
 opacity: 70%;
 z-index: 2;
+text-align: justify;
 }
 .main_paragraph
 {
@@ -166,9 +168,15 @@ z-index: 2;
     opacity: 80%;
 }
 .attribution { 
-    font-size: 11px; 
+    font-size: 1.4rem; 
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    background-color: var(--Primary-Moderate-violet);
+    color: var(--Primary-White);
+    font-weight: var(--Heavy-weight);
+    text-decoration: none; 
 }
