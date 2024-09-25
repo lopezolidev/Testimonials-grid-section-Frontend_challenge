@@ -20,9 +20,152 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family:'Barlow Semi Condensed';
+    background-color: var(--Neutral-Light-gray);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    height: 100vh;
+    
 }
+.cards_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 90rem;
+    align-items: center;
+}
+.character_card
+{
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.left_box{
+display: flex;
+flex-direction: column;
+}
+/* TRABAJANDO CON EL CONTENEDOR DE ARRIBA ALA IZQUIERDA */
+.left_top_container{
+    display: flex;
+}
+.daniel_card{
+    background-color: var(--Primary-Moderate-violet);
+    
+    margin-right: 2.5rem;
+    margin-bottom:2.5rem ;
+    position: relative;
+    
+}
+.daniel_ids{
+    color: var(--Primary-White);
+}
+.daniel_ids h5{
+    opacity: 40%;
+}
+.quotes_container{
+    position: absolute;
+    top:1.4rem;
+    right: 4.3rem;
+    z-index: 1;
+}
+#Daniel_Clifford{
+    color: var(--Primary-White);
 
+}
+#Daniel_Clifford_s{
+    color: var(--Primary-White);
+    
+}
+/* TRABAJANDO CONTENEDOR  ARRIBA A LA DERECHA */
+.jonathan_card{
+    background-color: var(--Primary-Very-dark-grayish-blue);
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}
+.jonathan_ids{
+    color: var(--Primary-White);
+}
+.jonathan_ids h5{
+    opacity: 40%;
+}
+#Jonathan_Walters{
+    color: var(--Primary-White);
+    
+}
+#Jonathan_Walters_s{
+    color: var(--Primary-White);
+    
+}
+/* TRABAJANDO CON CONTENEDOR ABAJO A LA IZQUIERDA */
+.left_bottom_container{
+    display: flex;
+}
+.jeanette_card{
+    background-color: var(--Primary-White);
+    margin-right: 2.5rem;
+}
+.jeanette_ids{
+    color: var(--Primary-Very-dark-blackish-blue);
+}
+.jeanette_ids h5{
+    opacity:40%
+}
+/* TRABAJANDO CON CONTENEDOR ABAJO A LA DERECHA */
+
+.patrick_card{
+    background-color: var(--Primary-Very-dark-blackish-blue);
+    
+}
+.patrick_ids{
+    color: var(--Primary-White);
+}
+.patrick_ids h5{
+    opacity:40%
+}
+#Patrick_Abrams{
+    color: var(--Primary-White);
+}
+#Patrick_Abrams_s{
+    color: var(--Primary-White);
+}
+/* TRABAJANDO CON CONTENEDOR A LA DERECHA */
+.right_box{
+    margin-left: 2.5rem;
+    width: 79.9%;
+    background-color: var(--Primary-White);
+    border-radius: 1rem;
+}
+.subtitle_ids{
+    display: flex;
+    align-items: center;
+   
+}
+.kira_ids h5{
+ opacity: 40%;
+}
+.subtitle_ids img{
+    width: 2rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+.paragraphs_container{
+position: relative;
+margin-top: 1.5rem;
+font-weight: var(--Medium-weight);
+opacity: 70%;
+z-index: 2;
+}
+.main_paragraph
+{
+    font-weight: var(--Heavy-weight);
+    font-size: 1.3rem;
+    opacity: 100%;
+    margin-bottom: 1rem;
+}
+.secondary_paragraph{
+    opacity: 80%;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
