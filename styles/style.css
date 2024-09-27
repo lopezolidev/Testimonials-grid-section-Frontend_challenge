@@ -155,7 +155,7 @@ margin-top: 1.5rem;
 font-weight: var(--Medium-weight);
 opacity: 70%;
 z-index: 2;
-text-align: justify;
+
 }
 .main_paragraph
 {
@@ -166,6 +166,7 @@ text-align: justify;
 }
 .secondary_paragraph{
     opacity: 80%;
+    text-align: justify;
 }
 .attribution { 
     font-size: 1.4rem; 
@@ -179,4 +180,35 @@ text-align: justify;
     color: var(--Primary-White);
     font-weight: var(--Heavy-weight);
     text-decoration: none; 
+}
+@media(max-width:375px)
+{
+    .cards_wrapper{
+      flex-direction: column;
+    }
+    .left_top_container{
+        
+        flex-direction: column;
+    }
+    .left_bottom_container{
+        flex-direction: column;
+    }
+    .kira_card{
+        margin-top: 1.5rem;
+    }
+   .patrick_card{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+   }
+   .jonathan_card{
+    margin-bottom: 1.5rem;
+   }
+   .daniel_card{
+    margin-bottom: 1.5rem;
+   }
+    body{
+        padding: 3rem;
+    }
+
 }
